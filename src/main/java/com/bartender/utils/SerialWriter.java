@@ -7,7 +7,6 @@ import java.io.IOException;
 public class SerialWriter {
     private static SerialPort sp;
     private static boolean serialOpened = false;
-    //private static final String pornName = "/dev/ttyACM1";
     public static void openPort(String portName) throws IOException {
         if(serialOpened) {
             return;
